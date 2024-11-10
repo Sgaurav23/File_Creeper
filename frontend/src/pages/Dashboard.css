@@ -1,0 +1,58 @@
+/* Dashboard.css */
+.dashboard {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #c9d1d9;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align content horizontally */
+}
+
+.dashboard-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  justify-items: center; /* Center align grid items horizontally */
+}
+
+.files, .profile, .content {
+  background-color: #161b22;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 350px; /* Control width to make the cards consistent in size */
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.file-info, .file-content {
+  margin-top: 20px;
+}
+
+.file-info h3, .file-content h3 {
+  margin-top: 0;
+  color: #58a6ff;
+}
+
+.file-info p, .file-content pre, .file-content img {
+  margin: 10px 0;
+  color: #c9d1d9;
+}
+
+.back-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1a2839;
+  color: #0d1117;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #305894;
+  color: #fff;
+}

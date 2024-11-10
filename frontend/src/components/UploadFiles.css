@@ -1,0 +1,55 @@
+/* UploadFiles.css */
+.upload-files {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #c9d1d9;
+  text-align: center; /* Center align text */
+}
+
+.upload-files form {
+  margin-bottom: 20px;
+}
+
+.upload-files input[type="file"] {
+  display: block;
+  margin: 10px auto; /* Center align input */
+}
+
+.upload-files img {
+  display: block;
+  margin: 10px auto; /* Center align image */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 20px;
+  background-color: #007bff;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+  border-radius: 4px 4px 0 0;
+}
+
+.upload-files button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 auto; /* Center align button */
+}
+
+.upload-files button:hover {
+  background-color: #218838;
+}
